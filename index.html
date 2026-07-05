@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FSO Advogados | Assessoria Jurídica no ABCDMRR Paulista — Ribeirão Pires e Santo André</title>
+  <meta name="description"
+    content="FSO Advogados — Freitas Souza &amp; Oliveira. Assessoria jurídica completa no ABCDMRR Paulista: trabalhista, previdenciário, família, consumidor, cível, criminal, imobiliário e tributário. Atendimento presencial e online.">
+  <link rel="canonical" href="https://fsoadvogados.com.br/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="FSO Advogados">
+  <meta property="og:title" content="FSO Advogados | Agilidade, confiança e competência no ABCDMRR Paulista">
+  <meta property="og:description"
+    content="Assessoria jurídica completa com time multidisciplinar. Atendimento humanizado, presencial e online, em Ribeirão Pires e Santo André.">
+  <meta property="og:url" content="https://fsoadvogados.com.br/">
+  <meta property="og:image" content="https://fsoadvogados.com.br/images/logo-fso-horizontal.png">
+
+  <link rel="icon" type="image/png" href="images/favicon-fso.png">
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--
+    ============================================================
+    GOOGLE TAG (gtag.js) — Google Ads / Analytics
+    Descomente o bloco abaixo e substitua AW-XXXXXXXXXX pelo ID
+    real da conta quando o rastreio de conversões for configurado.
+    Os cliques de WhatsApp já disparam eventos automaticamente
+    (ver js/main.js — função trackConversion).
+    ============================================================
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-XXXXXXXXXX');
+  </script>
+  -->
+
+  <!-- Dados estruturados (SEO local) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "FSO Advogados — Freitas Souza & Oliveira Advogados",
+    "url": "https://fsoadvogados.com.br",
+    "email": "contato@fsoadvogados.com.br",
+    "telephone": "+55-11-94337-4508",
+    "image": "https://fsoadvogados.com.br/images/logo-fso-horizontal.png",
+    "areaServed": "ABCDMRR Paulista (Grande ABC), São Paulo",
+    "knowsAbout": ["Direito Cível", "Direito do Consumidor", "Direito Trabalhista", "Direito Previdenciário", "Direito de Família e Sucessões", "Direito Imobiliário", "Direito Criminal", "Direito Tributário"],
+    "address": [
+      {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Boa Vista, 210, sala 12, Centro",
+        "addressLocality": "Ribeirão Pires",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Giovanni Battista Pirelli, 271, sala 2501, Century Plaza Business, Vila Homero Thon",
+        "addressLocality": "Santo André",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="header__brand" aria-label="FSO Advogados — Início">
+        <img src="images/logo-fso-horizontal.png" alt="FSO — Freitas Souza &amp; Oliveira Advogados" width="500"
+          height="100">
+      </a>
+
+      <nav class="header__nav" id="main-nav" aria-label="Navegação principal">
+        <ul class="header__menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#areas">Áreas de Atuação</a></li>
+          <li><a href="#quem-somos">Quem Somos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <a class="btn btn--navy btn--sm js-whatsapp-cta" data-area="header"
+          href="https://api.whatsapp.com/send?phone=5511943374508&amp;text=Ol%C3%A1!%20Acessei%20o%20site%20da%20FSO%20Advogados%20e%20quero%20saber%20mais."
+          target="_blank" rel="noopener">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor"
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+          </svg>
+          Fale Conosco
+        </a>
+      </nav>
+
+      <button class="header__hamburger" id="nav-toggle" aria-expanded="false" aria-controls="main-nav"
+        aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="hero__media" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="hero__eyebrow"><span class="eyebrow-dash"></span>Freitas Souza &amp; Oliveira Advogados</p>
+        <h1 class="hero__title">Agilidade, confiança e competência no <span>ABC Paulista</span></h1>
+        <p class="hero__lead">Assessoria jurídica completa para você. Nosso time multidisciplinar atua com dedicação
+          total em cada caso, buscando as melhores soluções com agilidade e transparência.</p>
+        <div class="hero__actions">
+          <a class="btn btn--cream btn--lg js-whatsapp-cta" data-area="hero"
+            href="https://api.whatsapp.com/send?phone=5511943374508&amp;text=Ol%C3%A1!%20Acessei%20o%20site%20da%20FSO%20Advogados%20e%20quero%20saber%20mais."
+            target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor"
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+            </svg>
+            Fale conosco agora
+          </a>
+          <a class="btn btn--outline btn--lg" href="#areas">Conheça nossas áreas</a>
+        </div>
+
+        <ul class="hero__stats">
+          <li><strong>8</strong><span>áreas do Direito</span></li>
+          <li><strong>20+</strong><span>anos de experiência dos sócios</span></li>
+          <li><strong>2</strong><span>unidades no Grande ABC</span></li>
+          <li><strong>100%</strong><span>presencial e online</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ÁREAS DE ATUAÇÃO ============ -->
+    <section class="section areas" id="areas">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__eyebrow"><span class="eyebrow-dash"></span>Áreas de Atuação</p>
+          <h2 class="section__title">Atuação multidisciplinar para <em>proteger o que é seu</em></h2>
+          <p class="section__lead">Temos um time preparado para atender você nas mais diversas áreas do Direito. Seja
+            qual for a sua necessidade, conte com profissionais dedicados que colocam a mão na massa para proteger seus
+            direitos e interesses.</p>
+        </header>
+
+        <div class="areas__grid" id="areas-accordion">
+
+          <!-- Cível -->
+          <article class="area-card reveal">
+            <button type="button" class="area-card__toggle" aria-expanded="false" aria-controls="panel-civel">
+              <span class="area-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M12 4v16M8 20h8M6 7h12M12 4l-1.5 1.5h3L12 4z" />
+                  <path d="M6 7l-2.6 5.5a3 3 0 0 0 5.2 0L6 7zM18 7l-2.6 5.5a3 3 0 0 0 5.2 0L18 7z" />
+                </svg>
+              </span>
+              <span class="area-card__heading">
+                <span class="area-card__title">Cível</span>
+                <span class="area-card__teaser">Contratos, indenizações, cobranças e conflitos do dia a dia.</span>
+              </span>
+              <span class="area-card__chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </span>
+            </button>
+            <div class="area-card__panel" id="panel-civel" role="region">
+              <div class="area-card__content">
+                <p>O Direito Civil está presente em praticamente todas as relações do dia a dia. Ele regula os direitos
+                  e deveres entre as pessoas — desde um contrato de aluguel até uma indenização por danos morais.</p>
+                <p>Se você está enfrentando um conflito de vizinhança, precisa cobrar uma dívida, foi vítima de um dano
+                  material ou moral, ou simplesmente quer regularizar um contrato, estamos aqui para ajudar.</p>
+                <h4>Principais serviços</h4>
+                <ul>
+                  <li>Cobrança de dívidas e execuções judiciais</li>
+                  <li>Indenizações por danos materiais e morais</li>
+                  <li>Questões de vizinhança e propriedade</li>
+                  <li>Usucapião e regularização de imóveis</li>
+                  <li>Responsabilidade civil</li>
+                </ul>
+                <blockquote>“O Direito Civil organiza a vida em sociedade. Conte conosco para proteger seus interesses.”
+                </blockquote>
+                <a class="btn btn--navy js-whatsapp-cta" data-area="civel"
+                  href="https://api.whatsapp.com/send?phone=5511943374508&amp;text=Ol%C3%A1!%20Acessei%20a%20p%C3%A1gina%20de%20%C3%81reas%20de%20Atua%C3%A7%C3%A3o%20da%20FSO%20e%20quero%20saber%20mais%20sobre%20Direito%20C%C3%ADvel."
+                  target="_blank" rel="noopener">Solicitar contato</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Consumidor -->
+          <article class="area-card reveal">
+            <button type="button" class="area-card__toggle" aria-expanded="false" aria-controls="panel-consumidor">
+              <span class="area-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M6 8h12l1.2 13H4.8L6 8z" />
+                  <path d="M9 10V6a3 3 0 0 1 6 0v4" />
+                </svg>
+              </span>
+              <span class="area-card__heading">
+                <span class="area-card__title">Consumidor</span>
+                <span class="area-card__teaser">Cobranças indevidas, negativação, planos de saúde e compras com
+                  problema.</span>
+              </span>
+              <span class="area-card__chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </span>
+            </button>
+            <div class="area-card__panel" id="panel-consumidor" role="region">
+              <div class="area-card__content">
+                <p>Comprou um produto com defeito e a loja se recusa a trocar? Recebeu uma cobrança indevida? Teve o
+                  nome negativado injustamente? O Código de Defesa do Consumidor está do seu lado.</p>
+                <p>Atuamos tanto na defesa do consumidor quanto na orientação de fornecedores, buscando soluções rápidas
+                  — extrajudiciais ou judiciais — para que você não saia no prejuízo.</p>
+                <h4>Principais serviços</h4>
+                <ul>
+                  <li>Produtos com vício ou defeito de fabricação</li>
+                  <li>Cobranças abusivas e indevidas</li>
+                  <li>Negativação indevida do nome (SPC/Serasa)</li>
+                  <li>Planos de saúde que negam cobertura</li>
+                  <li>Contratos abusivos com bancos e financeiras</li>
+                  <li>Atraso na entrega de obras e imóveis</li>
+                  <li>Práticas comerciais desleais</li>
+                </ul>
+                <blockquote>“Seus direitos como consumidor estão previstos em lei. Não aceite menos do que você merece.”
+                </blockquote>
+                <a class="btn btn--navy js-whatsapp-cta" data-area="consumidor"
+                  href="https://api.whatsapp.com/send?phone=5511943374508&amp;text=Ol%C3%A1!%20Acessei%20a%20p%C3%A1gina%20de%20%C3%81reas%20de%20Atua%C3%A7%C3%A3o%20da%20FSO%20e%20quero%20saber%20mais%20sobre%20Direito%20do%20Consumidor."
+                  target="_blank" rel="noopener">Solicitar contato</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Trabalhista -->
+          <article class="area-card reveal">
+            <button type="button" class="area-card__toggle" aria-expanded="false" aria-controls="panel-trabalhista">
+              <span class="area-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect x="3" y="8" width="18" height="12" rx="2" />
+                  <path d="M9 8V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18M12 12v3" />
+                </svg>
+              </span>
+              <span class="area-card__heading">
+                <span class="area-card__title">Trabalhista</span>
+                <span class="area-card__teaser">Verbas rescisórias, horas extras, assédio e assessoria para
+                  empresas.</span>
+              </span>
+              <span class="area-card__chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </span>
+            </button>
+            <div class="area-card__panel" id="panel-trabalhista" role="region">
+              <div class="area-card__content">
+                <p>Foi demitido e está com dúvidas se seus direitos foram respeitados? Sofreu assédio moral no ambiente
+                  de trabalho? Não recebeu horas extras ou verbas rescisórias? Ou você é empregador e precisa de
+                  orientação para evitar passivos trabalhistas?</p>
+                <p>Atuamos tanto na defesa do empregado quanto na assessoria preventiva do empregador, com visão
+                  estratégica em cada caso.</p>
+                <h4>Principais serviços</h4>
+                <ul>
+                  <li>Verificação de verbas rescisórias no desligamento</li>
+                  <li>Horas extras e adicional noturno não pagos</li>
+                  <li>Reconhecimento de vínculo empregatício</li>
+                  <li>Assédio moral ou sexual no trabalho</li>
+                  <li>Indenizações por acidente de trabalho</li>
+                  <li>Acordo trabalhista extrajudicial</li>
+                  <li>Assessoria contenciosa para empresas</li>
+                  <li>Defesa em reclamações trabalhistas</li>
+                </ul>
+                <blockquote>“Seja qual for o seu lado na relação de trabalho, oferecemos suporte completo e
+                  estratégico.”</blockquote>
+                <a class="btn btn--navy js-whatsapp-cta" data-area="trabalhista"
+                  href="https://api.whatsapp.com/send?phone=5511943374508&amp;text=Ol%C3%A1!%20Acessei%20a%20p%C3%A1gina%20de%20%C3%81reas%20de%20Atua%C3%A7%C3%A3o%20da%20FSO%20e%20quero%20saber%20mais%20sobre%20Direito%20Trabalhista."
+                  target="_blank" rel="noopener">Solicitar contato</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Previdenciário -->
+          <article class="area-card reveal">
+            <button type="button" class="area-card__toggle" aria-expanded="false" aria-controls="panel-previdenciario">
+              <span class="area-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M12 3a9 9 0 0 1 9 9H3a9 9 0 0 1 9-9zM12 12v6a2.5 2.5 0 0 0 5 0M12 3V2" />
+                </svg>
+              </span>
+              <span class="area-card__heading">
+                <span class="area-card__title">Previdenciário</span>
+                <span class="area-card__teaser">Aposentadorias, benefícios do INSS e planejamento previdenciário.</span>
+              </span>
+              <span class="area-card__chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </span>
+            </button>
+            <div class="area-card__panel" id="panel-previdenciario" role="region">
+              <div class="area-card__content">
+                <p>Planejar a aposentadoria é um dos passos mais importantes da sua vida. Mas o caminho até ela pode ser
+                  burocrático e cheio de armadilhas.</p>
+                <p>Nosso time previdenciário acompanha cada etapa do seu processo, desde o planejamento até a conquista
+                  do benefício, seja no INSS ou na Justiça Federal.</p>
+                <h4>Principais serviços</h4>
+                <ul>
+                  <li>Aposentadoria por idade, tempo de contribuição e especial</li>
+                  <li>Aposentadoria da pessoa com deficiência</li>
+                  <li>Auxílio-doença e aposentadoria por invalidez</li>
+                  <li>Pensão por morte</li>
+                  <li>Revisão de benefícios (para aumentar o valor recebido)</li>
+                  <li>BPC/LOAS (Benefício de Prestação Continuada)</li>
+                  <li>Planejamento previdenciário</li>
+                </ul>
+                <blockquote>“Não deixe para depois o que é seu por direito. Planeje sua aposentadoria com quem entende
+                  do assunto.”</blockquote>
+                <a class="btn btn--navy js-whatsapp-cta" data-area="previdenciario"
+                  href="https://api.whatsapp.com/send?phone=5511943374508&amp;text=Ol%C3%A1!%20Acessei%20a%20p%C3%A1gina%20de%20%C3%81reas%20de%20Atua%C3%A7%C3%A3o%20da%20FSO%20e%20quero%20saber%20mais%20sobre%20Direito%20Previdenci%C3%A1rio."
+                  target="_blank" rel="noopener">Solicitar contato</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Família e Sucessões -->
+          <article class="area-card reveal">
+            <button type="button" class="area-card__toggle" aria-expanded="false" aria-controls="panel-familia">
+              <span class="area-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M12 20.5s-7.4-4.9-9.6-9.2A5.2 5.2 0 0 1 12 6.6a5.2 5.2 0 0 1 9.6 4.7C19.4 15.6 12 20.5 12 20.5z" />
+                </svg>
+              </span>
+              <span class="area-card__heading">
+                <span class="area-card__title">Família e Sucessões</span>
+                <span class="area-card__teaser">Divórcio, guarda, pensão, inventário e planejamento sucessório.</span>
+              </span>
+              <span class="area-card__chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </span>
+            </button>
+            <div class="area-card__panel" id="panel-familia" role="region">
+              <div class="area-card__content">
+                <p>Questões familiares são delicadas e exigem sensibilidade, discrição e competência técnica. Seja uma
+                  separação, a guarda dos filhos, uma pensão alimentícia ou o planejamento de uma herança — é
+                  fundamental ter um advogado que acolha sua história e ofereça soluções práticas.</p>
+                <h4>Principais serviços</h4>
+                <ul>
+                  <li>Divórcio consensual e litigioso</li>
+                  <li>Guarda compartilhada e unilateral</li>
+                  <li>Pensão alimentícia (fixação, revisão e execução)</li>
+                  <li>Inventário e partilha de bens</li>
+                  <li>Testamento e planejamento sucessório</li>
+                  <li>Reconhecimento e dissolução de união estável</li>
+                  <li>Ações de investigação de paternidade</li>
+                  <li>Alienação parental</li>
+                </ul>
+                <blockquote>“Em momentos sensíveis, você merece alguém que ouça atentamente e oriente com equilíbrio e
+                  respeito.”</blockquote>
+                <a class="btn btn--navy js-whatsapp-cta" data-area="familia"
+                  href="https://api.whatsapp.com/send?phone=5511943374508&amp;text=Ol%C3%A1!%20Acessei%20a%20p%C3%A1gina%20de%20%C3%81reas%20de%20Atua%C3%A7%C3%A3o%20da%20FSO%20e%20quero%20saber%20mais%20sobre%20Direito%20de%20Fam%C3%ADlia."
+                  target="_blank" rel="noopener">Solicitar contato</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Imobiliário -->
+          <article class="area-card reveal">
+            <button type="button" class="area-card__toggle" aria-expanded="false" aria-controls="panel-imobiliario">
+              <span class="area-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M3 11l9-7.5L21 11" />
+                  <path d="M5.5 9.5V20h13V9.5" />
+                  <path d="M10 20v-5.5h4V20" />
+                </svg>
+              </span>
+              <span class="area-card__heading">
+                <span class="area-card__title">Imobiliário</span>
+                <span class="area-card__teaser">Compra e venda, locação, regularização de imóveis e usucapião.</span>
+              </span>
+              <span class="area-card__chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </span>
+            </button>
+            <div class="area-card__panel" id="panel-imobiliario" role="region">
+              <div class="area-card__content">
+                <p>Comprar, vender, alugar ou regularizar um imóvel envolve questões jurídicas que podem gerar dor de
+                  cabeça se não forem bem conduzidas. Oferecemos assessoria completa na área imobiliária, garantindo
+                  segurança jurídica em cada transação.</p>
+                <h4>Principais serviços</h4>
+                <ul>
+                  <li>Elaboração e análise de contratos de compra e venda</li>
+                  <li>Contratos de locação (ação de despejo, revisional de aluguel)</li>
+                  <li>Escritura particular e escritura pública</li>
+                  <li>Regularização de imóveis e usucapião</li>
+                  <li>Direito de vizinhança</li>
+                  <li>Incorporação imobiliária</li>
+                  <li>Leilão imobiliário</li>
+                </ul>
+                <blockquote>“Segurança jurídica em cada negócio imobiliário — da assinatura do contrato à entrega das
+                  chaves.”</blockquote>
+                <a class="btn btn--navy js-whatsapp-cta" data-area="imobiliario"
+                  href="https://api.whatsapp.com/send?phone=5511943374508&amp;text=Ol%C3%A1!%20Acessei%20a%20p%C3%A1gina%20de%20%C3%81reas%20de%20Atua%C3%A7%C3%A3o%20da%20FSO%20e%20quero%20saber%20mais%20sobre%20Direito%20Imobili%C3%A1rio."
+                  target="_blank" rel="noopener">Solicitar contato</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Criminal -->
+          <article class="area-card reveal">
+            <button type="button" class="area-card__toggle" aria-expanded="false" aria-controls="panel-criminal">
+              <span class="area-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M12 3l8 3v6c0 4.6-3.3 7.9-8 9-4.7-1.1-8-4.4-8-9V6l8-3z" />
+                  <path d="M9 12l2 2 4-4" />
+                </svg>
+              </span>
+              <span class="area-card__heading">
+                <span class="area-card__title">Criminal</span>
+                <span class="area-card__teaser">Defesa técnica imediata, habeas corpus e representação de
+                  vítimas.</span>
+              </span>
+              <span class="area-card__chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </span>
+            </button>
+            <div class="area-card__panel" id="panel-criminal" role="region">
+              <div class="area-card__content">
+                <p>Responder a um processo criminal ou ser vítima de um crime são situações que exigem defesa técnica
+                  imediata e competente. Oferecemos assessoria criminal com seriedade, sigilo profissional e total
+                  compromisso com a justiça.</p>
+                <p>Atuamos tanto na defesa de acusados quanto na representação de vítimas, sempre com respeito ao
+                  contraditório e à ampla defesa.</p>
+                <h4>Principais serviços</h4>
+                <ul>
+                  <li>Defesa em processos criminais em todas as instâncias</li>
+                  <li>Acompanhamento em delegacias</li>
+                  <li>Pedidos de revogação de prisão preventiva</li>
+                  <li>Habeas corpus</li>
+                  <li>Revisão criminal</li>
+                  <li>Queixa-crime (defesa da vítima)</li>
+                  <li>Crimes de trânsito</li>
+                  <li>Violência doméstica (defesa e representação)</li>
+                  <li>Crimes contra a honra (calúnia, difamação, injúria)</li>
+                </ul>
+                <blockquote>“Em situações que envolvem liberdade e honra, uma defesa técnica de qualidade não é opção —
+                  é necessidade.”</blockquote>
+                <a class="btn btn--navy js-whatsapp-cta" data-area="criminal"
+                  href="https://api.whatsapp.com/send?phone=5511943374508&amp;text=Ol%C3%A1!%20Acessei%20a%20p%C3%A1gina%20de%20%C3%81reas%20de%20Atua%C3%A7%C3%A3o%20da%20FSO%20e%20quero%20saber%20mais%20sobre%20Direito%20Criminal."
+                  target="_blank" rel="noopener">Solicitar contato</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tributário -->
+          <article class="area-card reveal">
+            <button type="button" class="area-card__toggle" aria-expanded="false" aria-controls="panel-tributario">
+              <span class="area-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="7.5" cy="7.5" r="2.6" />
+                  <circle cx="16.5" cy="16.5" r="2.6" />
+                  <path d="M19 5L5 19" />
+                </svg>
+              </span>
+              <span class="area-card__heading">
+                <span class="area-card__title">Tributário</span>
+                <span class="area-card__teaser">Defesas fiscais, cobranças indevidas e recuperação de créditos.</span>
+              </span>
+              <span class="area-card__chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </span>
+            </button>
+            <div class="area-card__panel" id="panel-tributario" role="region">
+              <div class="area-card__content">
+                <p>A área tributária está diretamente ligada à saúde financeira das pessoas. Seja para organizar,
+                  questionar uma cobrança indevida ou planejar estrategicamente os tributos — uma assessoria
+                  especializada faz toda a diferença.</p>
+                <h4>Principais serviços</h4>
+                <ul>
+                  <li>Defesa em processos administrativos fiscais</li>
+                  <li>Execução fiscal e embargos à execução</li>
+                  <li>Questionamento de cobranças indevidas de tributos</li>
+                  <li>Recuperação de créditos tributários</li>
+                </ul>
+                <blockquote>“Uma gestão tributária eficiente reduz custos e evita surpresas com o fisco.”</blockquote>
+                <a class="btn btn--navy js-whatsapp-cta" data-area="tributario"
+                  href="https://api.whatsapp.com/send?phone=5511943374508&amp;text=Ol%C3%A1!%20Acessei%20a%20p%C3%A1gina%20de%20%C3%81reas%20de%20Atua%C3%A7%C3%A3o%20da%20FSO%20e%20quero%20saber%20mais%20sobre%20Direito%20Tribut%C3%A1rio."
+                  target="_blank" rel="noopener">Solicitar contato</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DIFERENCIAIS ============ -->
+    <section class="section diferenciais" id="diferenciais">
+      <div class="diferenciais__glow" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section__head section__head--light reveal">
+          <p class="section__eyebrow section__eyebrow--light"><span class="eyebrow-dash"></span>Diferenciais</p>
+          <h2 class="section__title section__title--light">Por que escolher a <em>FSO Advogados</em></h2>
+        </header>
+
+        <div class="diferenciais__grid">
+          <div class="diferencial reveal">
+            <span class="diferencial__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M12 20.5s-7.4-4.9-9.6-9.2A5.2 5.2 0 0 1 12 6.6a5.2 5.2 0 0 1 9.6 4.7C19.4 15.6 12 20.5 12 20.5z" />
+              </svg>
+            </span>
+            <h3>Atendimento humanizado</h3>
+            <p>Ouvimos sua história com atenção e respeito. Cada caso é único.</p>
+          </div>
+          <div class="diferencial reveal">
+            <span class="diferencial__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M13 2L4.5 13.5H11L9.5 22 19 10h-6.5L13 2z" />
+              </svg>
+            </span>
+            <h3>Agilidade e transparência</h3>
+            <p>Comunicação clara em cada etapa. Você sempre sabe o que está acontecendo.</p>
+          </div>
+          <div class="diferencial reveal">
+            <span class="diferencial__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+              </svg>
+            </span>
+            <h3>Mãos à massa</h3>
+            <p>Nosso time é “hands on”: colocamos energia total para alcançar os melhores resultados.</p>
+          </div>
+          <div class="diferencial reveal">
+            <span class="diferencial__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M21 10c0 7-9 12.5-9 12.5S3 17 3 10a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </span>
+            <h3>No ABCDMRR Paulista</h3>
+            <p>Perto de você, com atendimento presencial e online.</p>
+          </div>
+          <div class="diferencial reveal">
+            <span class="diferencial__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </span>
+            <h3>Time multidisciplinar</h3>
+            <p>Advogados especializados em mais de 8 áreas do Direito.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ QUEM SOMOS ============ -->
+    <section class="section quem-somos" id="quem-somos">
+      <div class="container">
+        <div class="quem-somos__intro">
+          <div class="quem-somos__media reveal" aria-hidden="true">
+            <img src="images/quem-somos.jpg" alt="" loading="lazy" width="1500" height="837">
+            <span class="quem-somos__media-badge">
+              <strong>20+</strong>
+              <em>anos de experiência<br>dos sócios fundadores</em>
+            </span>
+          </div>
+
+          <div class="quem-somos__lead reveal">
+            <p class="section__eyebrow"><span class="eyebrow-dash"></span>Quem Somos</p>
+            <blockquote class="quem-somos__quote">
+              <p>“Quando fundamos a FSO, queríamos que nossos clientes se sentissem exatamente como nós gostaríamos de
+                nos sentir ao sermos defendidos por um profissional do Direito.”</p>
+              <cite>— Sócios fundadores</cite>
+            </blockquote>
+            <p>Essa frase resume nossa essência. A FSO Advogados nasceu da convicção de que um serviço jurídico de
+              qualidade alia conhecimento técnico, dedicação genuína e respeito pelo cliente.</p>
+            <h3>Nosso propósito</h3>
+            <p>Somos completamente dedicados a quem confia em nosso trabalho. Ouvimos atentamente, compreendemos o
+              cenário de cada situação com máxima habilidade e interesse, para orientar e direcionar através de
+              estratégias sólidas. Somos “hands on” — colocamos a mão na massa para que seus objetivos sejam alcançados.
+            </p>
+          </div>
+        </div>
+
+        <div class="quem-somos__socios">
+          <h3 class="reveal">Nossos sócios</h3>
+          <p class="socios__intro reveal">Nosso time é formado por advogados especializados nas mais diversas áreas do
+            Direito, cada um atuando com excelência e dedicação total em sua área.</p>
+
+          <!-- Para incluir as fotos reais: salvar em images/ (proporção 4:5, mín. 640×800px)
+               e substituir cada div.socio__placeholder por:
+               <img src="images/socio-nome.jpg" alt="Nome do sócio"> -->
+          <div class="socios__grid">
+            <article class="socio reveal">
+              <div class="socio__photo">
+                <div class="socio__placeholder" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg>
+                  <span>EO</span>
+                </div>
+              </div>
+              <div class="socio__body">
+                <h4>Edilson Oliveira</h4>
+                <p class="socio__role">Sócio fundador</p>
+                <p>Mais de 20 anos de experiência na Administração Pública. Especialista em Direito Civil e Direito
+                  Constitucional.</p>
+              </div>
+            </article>
+
+            <article class="socio reveal">
+              <div class="socio__photo">
+                <div class="socio__placeholder" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg>
+                  <span>AC</span>
+                </div>
+              </div>
+              <div class="socio__body">
+                <h4>Antonio Carlos Freitas Souza</h4>
+                <p class="socio__role">Sócio fundador</p>
+                <p>Mais de 17 anos de atuação na área tributária. Especialista em Direito Empresarial e Tributário.</p>
+              </div>
+            </article>
+
+            <article class="socio reveal">
+              <div class="socio__photo">
+                <div class="socio__placeholder" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg>
+                  <span>AR</span>
+                </div>
+              </div>
+              <div class="socio__body">
+                <h4>Adenilson Rodrigues</h4>
+                <p class="socio__role">Sócio advogado</p>
+                <p>Especialista em Direito do Trabalho e Direito Previdenciário.</p>
+              </div>
+            </article>
+          </div>
+
+          <p class="socios__note reveal">Além da expertise de seus sócios, a FSO conta com uma equipe multidisciplinar
+            de especialistas, preparada para oferecer soluções integradas, seguras e alinhadas às necessidades de cada
+            cliente.</p>
+        </div>
+
+        <div class="valores">
+          <h3 class="reveal">Nossos valores</h3>
+          <div class="valores__grid">
+            <div class="valor reveal">
+              <span class="valor__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M22 11.1V12a10 10 0 1 1-5.93-9.14" />
+                  <path d="M22 4L12 14l-3-3" />
+                </svg>
+              </span>
+              <h4>Comprometimento</h4>
+              <p>Cada causa é tratada com a seriedade que merece. Estamos com você do início ao fim.</p>
+            </div>
+            <div class="valor reveal">
+              <span class="valor__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                  <circle cx="12" cy="12" r="3" />
+                </svg>
+              </span>
+              <h4>Transparência</h4>
+              <p>Nada de juridiquês desnecessário. Explicamos tudo de forma clara para você tomar as melhores decisões.
+              </p>
+            </div>
+            <div class="valor reveal">
+              <span class="valor__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4.9 12c.9.9 1.4 1.8 1.6 3h6.6c.2-1.2.7-2.1 1.6-3A7 7 0 0 0 12 2z" />
+                </svg>
+              </span>
+              <h4>Inovação</h4>
+              <p>Acompanhamos as mudanças da sociedade e do Direito para oferecer soluções modernas e eficientes.</p>
+            </div>
+            <div class="valor reveal">
+              <span class="valor__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="12" cy="8" r="6" />
+                  <path d="M15.5 13.5L17 22l-5-3-5 3 1.5-8.5" />
+                </svg>
+              </span>
+              <h4>Excelência</h4>
+              <p>Nosso objetivo é garantir a satisfação de quem confia em nosso trabalho, superando expectativas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BANNER CTA ============ -->
+    <section class="cta-banner">
+      <div class="cta-banner__media" aria-hidden="true"></div>
+      <div class="container cta-banner__inner reveal">
+        <p class="section__eyebrow section__eyebrow--light"><span class="eyebrow-dash"></span>Vamos conversar</p>
+        <h2>Vamos conversar sobre o seu caso?</h2>
+        <p class="cta-banner__lead">Sua primeira conversa não tem compromisso. Conte sua história e descubra como
+          podemos ajudar.</p>
+        <div class="cta-banner__actions">
+          <a class="btn btn--cream btn--lg js-whatsapp-cta" data-area="cta-banner"
+            href="https://api.whatsapp.com/send?phone=5511943374508&amp;text=Ol%C3%A1!%20Acessei%20o%20site%20da%20FSO%20Advogados%20e%20quero%20agendar%20uma%20conversa."
+            target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor"
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+            </svg>
+            Fale conosco pelo WhatsApp
+          </a>
+          <a class="cta-banner__email" href="mailto:contato@fsoadvogados.com.br">contato@fsoadvogados.com.br</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <section class="section contato" id="contato">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__eyebrow"><span class="eyebrow-dash"></span>Contato</p>
+          <h2 class="section__title">Entre em contato</h2>
+          <p class="section__lead">Conte um pouco do seu caso e nossa equipe retornará o mais breve possível.</p>
+        </header>
+
+        <div class="contato__grid">
+          <!-- Formulário -->
+          <div class="contato__form-wrap reveal">
+            <form class="contact-form" id="contact-form">
+              <div class="form-field">
+                <label for="cf-nome">Nome completo *</label>
+                <input type="text" id="cf-nome" name="nome" autocomplete="name" required>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="cf-email">E-mail</label>
+                  <input type="email" id="cf-email" name="email" autocomplete="email">
+                </div>
+                <div class="form-field">
+                  <label for="cf-whatsapp">WhatsApp *</label>
+                  <input type="tel" id="cf-whatsapp" name="whatsapp" autocomplete="tel" placeholder="(11) 90000-0000"
+                    required>
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="cf-area">Área de interesse</label>
+                <select id="cf-area" name="area">
+                  <option value="" selected>Selecione uma área (opcional)</option>
+                  <option>Cível</option>
+                  <option>Consumidor</option>
+                  <option>Trabalhista</option>
+                  <option>Previdenciário</option>
+                  <option>Família e Sucessões</option>
+                  <option>Imobiliário</option>
+                  <option>Criminal</option>
+                  <option>Tributário</option>
+                  <option>Outro assunto</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="cf-mensagem">Mensagem *</label>
+                <textarea id="cf-mensagem" name="mensagem" rows="4"
+                  placeholder="Conte brevemente o que está acontecendo…" required></textarea>
+              </div>
+              <button type="submit" class="btn btn--navy btn--lg btn--block">Enviar pelo WhatsApp</button>
+              <p class="contact-form__hint">Ao enviar, você será direcionado ao nosso WhatsApp com a mensagem pronta — é
+                só confirmar o envio.</p>
+              <p class="contact-form__feedback" role="status" aria-live="polite" hidden></p>
+            </form>
+          </div>
+
+          <!-- Unidades e canais -->
+          <div class="contato__info">
+            <div class="contato__canais reveal">
+              <a class="canal js-whatsapp-cta" data-area="contato"
+                href="https://api.whatsapp.com/send?phone=5511943374508&amp;text=Ol%C3%A1!%20Acessei%20o%20site%20da%20FSO%20Advogados%20e%20quero%20saber%20mais."
+                target="_blank" rel="noopener">
+                <span class="canal__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+                  </svg>
+                </span>
+                <span>
+                  <strong>WhatsApp</strong>
+                  <em>(11) 94337-4508</em>
+                </span>
+              </a>
+              <a class="canal" href="mailto:contato@fsoadvogados.com.br">
+                <span class="canal__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                    <path d="M22 7l-10 6L2 7" />
+                  </svg>
+                </span>
+                <span>
+                  <strong>E-mail</strong>
+                  <em>contato@fsoadvogados.com.br</em>
+                </span>
+              </a>
+            </div>
+
+            <div class="unidade reveal">
+              <h3>Unidade Ribeirão Pires</h3>
+              <p>Rua Boa Vista, 210, sala 12 — Centro<br>Ribeirão Pires/SP</p>
+              <div class="unidade__mapa">
+                <iframe
+                  src="https://www.google.com/maps?q=Rua+Boa+Vista,+210,+Centro,+Ribeir%C3%A3o+Pires,+SP&amp;output=embed"
+                  title="Mapa — Unidade Ribeirão Pires" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="unidade reveal">
+              <h3>Unidade Santo André</h3>
+              <p>Century Plaza Business — Rua Giovanni Battista Pirelli, 271, sala 2501<br>Vila Homero Thon, Santo
+                André/SP</p>
+              <div class="unidade__mapa">
+                <iframe
+                  src="https://www.google.com/maps?q=Rua+Giovanni+Battista+Pirelli,+271,+Vila+Homero+Thon,+Santo+Andr%C3%A9,+SP&amp;output=embed"
+                  title="Mapa — Unidade Santo André" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="images/favicon-fso.png" alt="" width="56" height="56">
+        <p class="footer__name">FSO Advogados</p>
+        <p class="footer__tagline">Freitas Souza &amp; Oliveira Advogados.<br>Agilidade, confiança e competência no
+          ABCDMRR Paulista.</p>
+        <div class="footer__social">
+          <!-- TODO: substituir os href="#" pelos links reais do Instagram e Facebook -->
+          <a href="#" aria-label="Instagram da FSO Advogados">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="2.5" y="2.5" width="19" height="19" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.3" cy="6.7" r="0.5" fill="currentColor" />
+            </svg>
+          </a>
+          <a href="#" aria-label="Facebook da FSO Advogados">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer__col" aria-label="Links do rodapé">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#areas">Áreas de Atuação</a></li>
+          <li><a href="#quem-somos">Quem Somos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__col">
+        <h4>Áreas de Atuação</h4>
+        <ul>
+          <li><a href="#areas">Cível · Consumidor</a></li>
+          <li><a href="#areas">Trabalhista · Previdenciário</a></li>
+          <li><a href="#areas">Família e Sucessões · Imobiliário</a></li>
+          <li><a href="#areas">Criminal · Tributário</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a class="js-whatsapp-cta" data-area="footer"
+              href="https://api.whatsapp.com/send?phone=5511943374508&amp;text=Ol%C3%A1!%20Acessei%20o%20site%20da%20FSO%20Advogados%20e%20quero%20saber%20mais."
+              target="_blank" rel="noopener">(11) 94337-4508</a></li>
+          <li><a href="mailto:contato@fsoadvogados.com.br">contato@fsoadvogados.com.br</a></li>
+          <li>Rua Boa Vista, 210, sala 12 — Centro, Ribeirão Pires/SP</li>
+          <li>Rua Giovanni Battista Pirelli, 271, sala 2501 — Santo André/SP</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© <span id="footer-year">2026</span> FSO Advogados — Freitas Souza &amp; Oliveira Advogados. Todos os
+          direitos reservados.</p>
+        <!-- TODO: criar as páginas de Política de Privacidade e Termos de Uso -->
+        <p class="footer__legal"><a href="#">Política de Privacidade</a> · <a href="#">Termos de Uso</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante de WhatsApp -->
+  <a class="whatsapp-float js-whatsapp-cta" data-area="botao-flutuante"
+    href="https://api.whatsapp.com/send?phone=5511943374508&amp;text=Ol%C3%A1!%20Acessei%20o%20site%20da%20FSO%20Advogados%20e%20quero%20saber%20mais."
+    target="_blank" rel="noopener" aria-label="Falar com a FSO Advogados pelo WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="currentColor"
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+    </svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
