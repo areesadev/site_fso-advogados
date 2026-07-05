@@ -582,6 +582,8 @@ button {
   font-weight: 300;
   color: var(--muted);
   line-height: 1.45;
+  /* Reserva 2 linhas para que todos os cards fiquem com a mesma altura */
+  min-height: 2.9em;
 }
 
 .area-card__chevron {
