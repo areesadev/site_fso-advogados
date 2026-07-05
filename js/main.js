@@ -50,25 +50,12 @@
     if (event.key === 'Escape') closeNav();
   });
 
-  /* ---------- Accordion das áreas (exclusivo: um abre, o outro fecha) ---------- */
-  var areaToggles = document.querySelectorAll('.area-card__toggle');
-
-  function setCardState(card, open) {
-    card.classList.toggle('is-open', open);
-    card.querySelector('.area-card__toggle').setAttribute('aria-expanded', String(open));
-  }
-
-  areaToggles.forEach(function (toggle) {
+  /* ---------- Accordion das áreas (múltiplos podem ficar abertos) ---------- */
+  document.querySelectorAll('.area-card__toggle').forEach(function (toggle) {
     toggle.addEventListener('click', function () {
       var card = toggle.closest('.area-card');
-      var willOpen = !card.classList.contains('is-open');
-
-      // Fecha qualquer outro card aberto
-      document.querySelectorAll('.area-card.is-open').forEach(function (openCard) {
-        if (openCard !== card) setCardState(openCard, false);
-      });
-
-      setCardState(card, willOpen);
+      var isOpen = card.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', String(isOpen));
     });
   });
 
