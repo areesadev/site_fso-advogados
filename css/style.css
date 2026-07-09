@@ -327,7 +327,7 @@ button {
   position: absolute;
   inset: 0;
   z-index: -2;
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../images/equipe-corporativo-reuniao.jpg");
   background-size: cover;
   background-position: 32% center;
   transform: scale(1.12);
@@ -1024,7 +1024,7 @@ button {
   position: absolute;
   inset: 0;
   z-index: -2;
-  background-image: url("../images/cta-bg.jpg");
+  background-image: url("../images/equipe-corporativo-reuniao-2.jpg");
   background-size: cover;
   background-position: center 30%;
   filter: blur(4px);
