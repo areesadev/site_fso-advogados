@@ -160,10 +160,16 @@
 
   /* ---------- Rastreio de conversões (Google Ads / Analytics) ----------
      Todo link de WhatsApp tem a classe .js-whatsapp-cta e um data-area
-     identificando a origem do clique. Quando o gtag estiver ativo no
-     <head>, cada clique dispara um evento "whatsapp_click" — basta criar
-     a conversão correspondente no Google Ads / GA4. */
+     identificando a origem do clique. Cada clique dispara:
+       1. gtag_report_conversion — evento oficial de conversão do Google Ads
+          (AW-18242246039/ZCrwCIjg8c8cEJeryvpD)
+       2. gtag 'whatsapp_click'  — evento de Analytics/GA4 para relatórios */
   function trackConversion(origin) {
+    // 1. Conversão oficial Google Ads
+    if (typeof gtag_report_conversion === 'function') {
+      gtag_report_conversion();
+    }
+    // 2. Evento complementar para GA4 / relatórios
     if (typeof gtag !== 'undefined') {
       gtag('event', 'whatsapp_click', {
         event_category: 'conversao',

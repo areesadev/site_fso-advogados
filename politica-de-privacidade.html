@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade | FSO Advogados — Freitas Souza &amp; Oliveira</title>
+  <meta name="description"
+    content="Política de Privacidade da FSO Advogados. Saiba como coletamos, usamos e protegemos seus dados pessoais, em conformidade com a LGPD (Lei 13.709/2018).">
+  <link rel="canonical" href="https://fsoadvogados.com.br/politica-de-privacidade">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="FSO Advogados">
+  <meta property="og:title" content="Política de Privacidade | FSO Advogados">
+  <meta property="og:description"
+    content="Saiba como a FSO Advogados coleta, usa e protege seus dados pessoais, em conformidade com a LGPD.">
+  <meta property="og:url" content="https://fsoadvogados.com.br/politica-de-privacidade">
+  <meta property="og:image" content="https://fsoadvogados.com.br/images/logo-fso-horizontal.png">
+
+  <link rel="icon" type="image/png" href="images/favicon-fso.png">
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css?v=060726-1">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18242246039"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'AW-18242246039');
+  </script>
+
+  <!-- Snippet de conversão Google Ads -->
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') { window.location = url; }
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-18242246039/ZCrwCIjg8c8cEJeryvpD',
+      'value': 1.0,
+      'currency': 'BRL',
+      'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+
+  <style>
+    /* ── Página interna: hero compacto ────────────────────────────── */
+    .page-hero {
+      background: linear-gradient(120deg, var(--navy-950) 0%, var(--navy-850) 60%, var(--navy-800) 100%);
+      color: var(--cream);
+      padding-block: clamp(56px, 8vw, 96px);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .page-hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(900px 500px at 80% -10%, rgba(244,123,32,.18), transparent 60%);
+      pointer-events: none;
+    }
+
+    .page-hero__eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-size: .8rem;
+      font-weight: 600;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--cream);
+      margin-bottom: 16px;
+    }
+
+    .page-hero__title {
+      font-size: clamp(1.9rem, 4vw, 3rem);
+      font-weight: 600;
+      line-height: 1.1;
+      letter-spacing: -.02em;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+
+    .page-hero__lead {
+      font-size: 1.06rem;
+      font-weight: 300;
+      color: var(--on-navy);
+      max-width: 580px;
+    }
+
+    /* ── Conteúdo da política ─────────────────────────────────────── */
+    .privacy-content {
+      background: var(--cream-page);
+      padding-block: clamp(56px, 8vw, 100px);
+    }
+
+    .privacy-body {
+      max-width: 820px;
+      margin-inline: auto;
+    }
+
+    /* Índice lateral compacto */
+    .privacy-index {
+      background: var(--cream-card);
+      border: 1px solid var(--cream-line);
+      border-radius: var(--radius);
+      padding: 28px 30px;
+      margin-bottom: 48px;
+    }
+
+    .privacy-index__title {
+      font-size: .78rem;
+      font-weight: 600;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--navy-700);
+      margin-bottom: 14px;
+    }
+
+    .privacy-index ol {
+      list-style: decimal;
+      padding-left: 1.25em;
+      display: grid;
+      gap: 6px;
+    }
+
+    .privacy-index li {
+      font-size: .93rem;
+      font-weight: 400;
+    }
+
+    .privacy-index a {
+      color: var(--navy-700);
+      text-decoration: none;
+      transition: color .2s;
+    }
+
+    .privacy-index a:hover {
+      color: var(--orange);
+      text-decoration: underline;
+    }
+
+    /* Seções */
+    .privacy-section {
+      margin-bottom: 52px;
+      scroll-margin-top: calc(var(--header-h) + 20px);
+    }
+
+    .privacy-section h2 {
+      font-size: 1.45rem;
+      font-weight: 600;
+      color: var(--ink);
+      letter-spacing: -.015em;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .privacy-section h2 .sec-num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      background: var(--navy-900);
+      color: var(--cream);
+      font-size: .8rem;
+      font-weight: 700;
+      flex: none;
+    }
+
+    .privacy-section p {
+      font-size: .97rem;
+      font-weight: 300;
+      line-height: 1.75;
+      color: var(--text);
+      margin-bottom: 14px;
+    }
+
+    .privacy-section ul,
+    .privacy-section ol {
+      padding-left: 0;
+      list-style: none;
+      display: grid;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .privacy-section li {
+      position: relative;
+      padding-left: 22px;
+      font-size: .95rem;
+      font-weight: 300;
+      line-height: 1.65;
+      color: var(--text);
+    }
+
+    .privacy-section li::before {
+      content: "";
+      position: absolute;
+      left: 2px;
+      top: .62em;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--orange);
+    }
+
+    .privacy-section a {
+      color: var(--navy-700);
+      text-decoration: underline;
+      transition: color .2s;
+    }
+
+    .privacy-section a:hover {
+      color: var(--orange);
+    }
+
+    /* Destaque de atualização */
+    .privacy-update {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--orange-soft);
+      border: 1px solid rgba(244,123,32,.25);
+      border-radius: 8px;
+      padding: 8px 14px;
+      font-size: .83rem;
+      font-weight: 500;
+      color: var(--ink);
+      margin-bottom: 36px;
+    }
+
+    .privacy-update svg {
+      width: 15px;
+      height: 15px;
+      color: var(--orange);
+      flex: none;
+    }
+
+    /* Separador entre seções */
+    .privacy-divider {
+      border: none;
+      border-top: 1px solid var(--cream-line);
+      margin-bottom: 52px;
+    }
+
+    /* CTA final */
+    .privacy-cta {
+      background: linear-gradient(130deg, var(--navy-950), var(--navy-800));
+      border-radius: var(--radius);
+      padding: clamp(32px, 5vw, 52px);
+      text-align: center;
+      color: var(--cream);
+      margin-top: 20px;
+    }
+
+    .privacy-cta h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+
+    .privacy-cta p {
+      font-size: 1rem;
+      font-weight: 300;
+      color: var(--on-navy);
+      margin-bottom: 24px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="/" class="header__brand" aria-label="FSO Advogados — Início">
+        <img src="images/logo-fso-horizontal.png" alt="FSO — Freitas Souza &amp; Oliveira Advogados" width="500"
+          height="100">
+      </a>
+
+      <nav class="header__nav" id="main-nav" aria-label="Navegação principal">
+        <ul class="header__menu">
+          <li><a href="/#inicio">Início</a></li>
+          <li><a href="/#areas">Áreas de Atuação</a></li>
+          <li><a href="/#quem-somos">Quem Somos</a></li>
+          <li><a href="/#contato">Contato</a></li>
+        </ul>
+        <a class="btn btn--navy btn--sm js-whatsapp-cta" data-area="header-privacidade"
+          href="https://api.whatsapp.com/send?phone=5511970527954&amp;text=Ol%C3%A1!%20Acessei%20o%20site%20da%20FSO%20Advogados%20e%20quero%20saber%20mais."
+          target="_blank" rel="noopener">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor"
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+          </svg>
+          Fale Conosco
+        </a>
+      </nav>
+
+      <button class="header__hamburger" id="nav-toggle" aria-expanded="false" aria-controls="main-nav"
+        aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO DA PÁGINA ============ -->
+    <section class="page-hero">
+      <div class="container">
+        <p class="page-hero__eyebrow"><span class="eyebrow-dash"></span>FSO Advogados</p>
+        <h1 class="page-hero__title">Política de Privacidade</h1>
+        <p class="page-hero__lead">Transparência e respeito aos seus dados pessoais, em conformidade com a LGPD
+          (Lei 13.709/2018).</p>
+      </div>
+    </section>
+
+    <!-- ============ CONTEÚDO ============ -->
+    <section class="privacy-content">
+      <div class="container">
+        <div class="privacy-body">
+
+          <!-- Data de atualização -->
+          <div class="privacy-update" aria-label="Data da última atualização">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="18" rx="2" />
+              <path d="M16 2v4M8 2v4M3 10h18" />
+            </svg>
+            Última atualização: julho de 2026
+          </div>
+
+          <!-- Índice -->
+          <nav class="privacy-index" aria-label="Índice da Política de Privacidade">
+            <p class="privacy-index__title">Nesta página</p>
+            <ol>
+              <li><a href="#quem-somos">Quem somos</a></li>
+              <li><a href="#dados-coletados">Dados que coletamos</a></li>
+              <li><a href="#finalidade">Como e por que usamos seus dados</a></li>
+              <li><a href="#cookies">Cookies e tecnologias de rastreio</a></li>
+              <li><a href="#google-ads">Google Ads e Analytics</a></li>
+              <li><a href="#compartilhamento">Compartilhamento de dados</a></li>
+              <li><a href="#retencao">Retenção e segurança</a></li>
+              <li><a href="#direitos">Seus direitos (LGPD)</a></li>
+              <li><a href="#menores">Menores de idade</a></li>
+              <li><a href="#alteracoes">Alterações nesta política</a></li>
+              <li><a href="#contato-dpo">Contato e DPO</a></li>
+            </ol>
+          </nav>
+
+          <!-- 1. Quem somos -->
+          <section class="privacy-section" id="quem-somos">
+            <h2><span class="sec-num">1</span>Quem somos</h2>
+            <p>A <strong>FSO Advogados — Freitas Souza &amp; Oliveira Advogados</strong> é uma sociedade de advogados
+              com sede em Ribeirão Pires/SP (Rua Boa Vista, 210, sala 12, Centro) e unidade em Santo André/SP (Rua
+              Giovanni Battista Pirelli, 271, sala 2501, Vila Homero Thon). Somos o <strong>controlador</strong> dos
+              dados pessoais tratados por meio deste site (<strong>fsoadvogados.com.br</strong>) e dos canais de
+              contato vinculados a ele.</p>
+            <p>Esta Política de Privacidade descreve como coletamos, utilizamos, armazenamos e protegemos suas
+              informações pessoais, em conformidade com a <strong>Lei Geral de Proteção de Dados Pessoais —
+              LGPD (Lei nº 13.709/2018)</strong>.</p>
+          </section>
+          <hr class="privacy-divider">
+
+          <!-- 2. Dados coletados -->
+          <section class="privacy-section" id="dados-coletados">
+            <h2><span class="sec-num">2</span>Dados que coletamos</h2>
+            <p>Coletamos apenas os dados necessários para prestar nossos serviços e otimizar sua experiência neste
+              site. As categorias de dados são:</p>
+            <ul>
+              <li><strong>Dados de identificação e contato:</strong> nome, telefone/WhatsApp e endereço de
+                e-mail, fornecidos voluntariamente pelo formulário de contato ou pelo WhatsApp.</li>
+              <li><strong>Dados de navegação (automáticos):</strong> endereço IP, tipo de navegador, sistema
+                operacional, páginas visitadas, tempo de permanência e origem do acesso, coletados via cookies e
+                ferramentas de análise.</li>
+              <li><strong>Dados de interação:</strong> botões clicados, área jurídica de interesse selecionada e
+                mensagem enviada pelo formulário do site.</li>
+            </ul>
+            <p>Não coletamos intencionalmente dados sensíveis (saúde, origem racial, orientação sexual, etc.) por
+              meio do site. Caso você os mencione em sua mensagem, eles serão tratados com sigilo profissional e
+              serão utilizados exclusivamente para o atendimento de sua consulta.</p>
+          </section>
+          <hr class="privacy-divider">
+
+          <!-- 3. Finalidade -->
+          <section class="privacy-section" id="finalidade">
+            <h2><span class="sec-num">3</span>Como e por que usamos seus dados</h2>
+            <p>Seus dados pessoais são utilizados para as seguintes finalidades, com base nas hipóteses legais
+              indicadas:</p>
+            <ul>
+              <li><strong>Responder às suas solicitações de contato e consultas jurídicas</strong> — com base no
+                <em>consentimento</em> e na <em>execução de contrato</em> (Art. 7º, I e V, LGPD).</li>
+              <li><strong>Enviar retorno por WhatsApp ou e-mail</strong> sobre o seu caso — com base no
+                <em>consentimento</em> e no <em>legítimo interesse</em>.</li>
+              <li><strong>Melhorar o desempenho e a experiência do site</strong> por meio de análise estatística de
+                navegação — com base no <em>legítimo interesse</em> (Art. 7º, IX, LGPD).</li>
+              <li><strong>Medir a eficácia de campanhas de marketing digital</strong> (Google Ads) para que
+                possamos alcançar quem realmente precisa de assessoria jurídica — com base no
+                <em>consentimento</em> e no <em>legítimo interesse</em>.</li>
+              <li><strong>Cumprir obrigações legais</strong> aplicáveis à atividade advocatícia — com base na
+                <em>obrigação legal</em> (Art. 7º, II, LGPD).</li>
+            </ul>
+            <p>Não utilizamos seus dados para fins de marketing não solicitado, nem os vendemos a terceiros.</p>
+          </section>
+          <hr class="privacy-divider">
+
+          <!-- 4. Cookies -->
+          <section class="privacy-section" id="cookies">
+            <h2><span class="sec-num">4</span>Cookies e tecnologias de rastreio</h2>
+            <p>Utilizamos cookies e tecnologias similares para garantir o funcionamento correto do site e para coletar
+              dados estatísticos de navegação. Veja os tipos utilizados:</p>
+            <ul>
+              <li><strong>Cookies essenciais:</strong> necessários para o funcionamento básico do site. Não podem
+                ser desativados.</li>
+              <li><strong>Cookies analíticos:</strong> coletam dados sobre como os visitantes usam o site
+                (páginas acessadas, tempo de sessão, origem do tráfego). Usamos o <strong>Google Analytics
+                (GA4)</strong> para esta finalidade.</li>
+              <li><strong>Cookies de publicidade:</strong> permitem medir a eficácia de nossos anúncios no
+                Google Ads e personalizar campanhas para públicos relevantes. Esses cookies podem rastrear sua
+                visita a outros sites após sair do nosso.</li>
+            </ul>
+            <p>Você pode gerenciar ou desativar cookies a qualquer momento pelas configurações do seu navegador.
+              Observe que desativar cookies analíticos e de publicidade não afeta o uso do site, mas pode tornar
+              nossos anúncios menos relevantes para você.</p>
+            <p>Para saber mais sobre cookies e como gerenciá-los, acesse
+              <a href="https://www.allaboutcookies.org" target="_blank" rel="noopener noreferrer">
+                allaboutcookies.org</a>.</p>
+          </section>
+          <hr class="privacy-divider">
+
+          <!-- 5. Google Ads e Analytics -->
+          <section class="privacy-section" id="google-ads">
+            <h2><span class="sec-num">5</span>Google Ads e Analytics</h2>
+            <p>Este site utiliza os serviços <strong>Google Ads</strong> e <strong>Google Analytics (GA4)</strong>,
+              fornecidos pela Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, EUA). Esses
+              serviços utilizam cookies e tecnologias similares para:</p>
+            <ul>
+              <li>Medir conversões e a eficácia de anúncios pagos no Google Search e em redes parceiras.</li>
+              <li>Analisar o comportamento dos visitantes (páginas visitadas, cliques, tempo de sessão).</li>
+              <li>Apresentar anúncios mais relevantes com base em interesses inferidos.</li>
+              <li>Gerar relatórios de audiência e remarketing para aprimorar nossas campanhas.</li>
+            </ul>
+            <p>Os dados coletados por essas ferramentas são processados nos servidores do Google e estão sujeitos à
+              <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+                Política de Privacidade do Google</a>. A FSO Advogados não tem acesso direto a dados
+              individualmente identificáveis por meio dessas ferramentas — os relatórios são apresentados de forma
+              agregada e anonimizada.</p>
+            <p>Para optar por não participar do rastreio do Google Analytics, instale o
+              <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">
+                complemento de exclusão do Google Analytics</a>. Para gerenciar as preferências de anúncios
+              personalizados do Google, acesse
+              <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">
+                Configurações de Anúncios do Google</a>.</p>
+          </section>
+          <hr class="privacy-divider">
+
+          <!-- 6. Compartilhamento -->
+          <section class="privacy-section" id="compartilhamento">
+            <h2><span class="sec-num">6</span>Compartilhamento de dados</h2>
+            <p>Seus dados pessoais <strong>não são vendidos</strong>. Podemos compartilhá-los apenas nas situações
+              a seguir:</p>
+            <ul>
+              <li><strong>Provedores de serviços:</strong> empresas que nos auxiliam na operação do site e das
+                campanhas (ex.: Google, Meta), atuando como operadoras e sujeitas às suas próprias políticas de
+                privacidade.</li>
+              <li><strong>Obrigação legal:</strong> quando exigido por lei, regulamento, processo judicial ou
+                autoridade competente.</li>
+              <li><strong>Proteção de direitos:</strong> quando necessário para proteger direitos, propriedade ou
+                segurança da FSO Advogados, de nossos clientes ou de terceiros.</li>
+            </ul>
+            <p>Qualquer compartilhamento é realizado com base em contrato que impõe obrigações de
+              confidencialidade e segurança ao destinatário dos dados.</p>
+          </section>
+          <hr class="privacy-divider">
+
+          <!-- 7. Retenção e segurança -->
+          <section class="privacy-section" id="retencao">
+            <h2><span class="sec-num">7</span>Retenção e segurança</h2>
+            <p>Mantemos seus dados apenas pelo tempo necessário para cumprir as finalidades descritas nesta política
+              ou para atender obrigações legais. Os prazos típicos são:</p>
+            <ul>
+              <li><strong>Dados de contato (formulário/WhatsApp):</strong> enquanto durar o relacionamento
+                e/ou pelo prazo de prescrição aplicável à natureza da consulta.</li>
+              <li><strong>Dados de navegação (cookies/Analytics):</strong> conforme as políticas das
+                plataformas utilizadas (geralmente até 26 meses no Google Analytics).</li>
+            </ul>
+            <p>Adotamos medidas técnicas e organizacionais adequadas para proteger seus dados contra acesso não
+              autorizado, perda, destruição ou divulgação indevida, incluindo:</p>
+            <ul>
+              <li>Transmissão criptografada via HTTPS (TLS).</li>
+              <li>Acesso restrito às informações de contato por parte de nossa equipe.</li>
+              <li>Não armazenamento de dados de pagamento neste site.</li>
+            </ul>
+          </section>
+          <hr class="privacy-divider">
+
+          <!-- 8. Direitos LGPD -->
+          <section class="privacy-section" id="direitos">
+            <h2><span class="sec-num">8</span>Seus direitos (LGPD)</h2>
+            <p>Nos termos da LGPD, você tem os seguintes direitos em relação aos seus dados pessoais tratados
+              pela FSO Advogados:</p>
+            <ul>
+              <li><strong>Confirmação e acesso:</strong> saber se tratamos seus dados e obter uma cópia deles.</li>
+              <li><strong>Correção:</strong> solicitar a atualização de dados incompletos, inexatos ou
+                desatualizados.</li>
+              <li><strong>Anonimização, bloqueio ou eliminação:</strong> de dados desnecessários ou tratados
+                de forma excessiva.</li>
+              <li><strong>Portabilidade:</strong> receber seus dados em formato estruturado e
+                interoperável.</li>
+              <li><strong>Eliminação:</strong> solicitar a exclusão de dados tratados com base em seu
+                consentimento.</li>
+              <li><strong>Revogação do consentimento:</strong> retirar o consentimento a qualquer momento,
+                sem prejuízo do tratamento realizado anteriormente.</li>
+              <li><strong>Informação sobre compartilhamento:</strong> saber com quem seus dados são
+                compartilhados.</li>
+              <li><strong>Revisão de decisões automatizadas:</strong> solicitar a revisão de decisões tomadas
+                exclusivamente com base em tratamento automatizado.</li>
+              <li><strong>Petição à ANPD:</strong> reclamar junto à Autoridade Nacional de Proteção de Dados
+                (<a href="https://www.gov.br/anpd" target="_blank" rel="noopener noreferrer">ANPD</a>).</li>
+            </ul>
+            <p>Para exercer qualquer um desses direitos, entre em contato pelos canais indicados na
+              <a href="#contato-dpo">seção 11</a>. Atenderemos sua solicitação no prazo legal.</p>
+          </section>
+          <hr class="privacy-divider">
+
+          <!-- 9. Menores -->
+          <section class="privacy-section" id="menores">
+            <h2><span class="sec-num">9</span>Menores de idade</h2>
+            <p>Este site não é direcionado a crianças ou adolescentes menores de 18 anos. Não coletamos
+              intencionalmente dados de menores. Caso identifiquemos o tratamento de dados de menor sem o
+              consentimento do responsável legal, providenciaremos a exclusão imediata dessas informações.</p>
+          </section>
+          <hr class="privacy-divider">
+
+          <!-- 10. Alterações -->
+          <section class="privacy-section" id="alteracoes">
+            <h2><span class="sec-num">10</span>Alterações nesta política</h2>
+            <p>Podemos atualizar esta Política de Privacidade periodicamente para refletir mudanças em nossas
+              práticas, em exigências legais ou em funcionalidades do site. A versão mais recente estará sempre
+              disponível nesta página, com a data de atualização indicada no início do documento.</p>
+            <p>Recomendamos que você revise esta política regularmente. O uso continuado do site após a
+              publicação de alterações indica sua concordância com a versão atualizada.</p>
+          </section>
+          <hr class="privacy-divider">
+
+          <!-- 11. Contato e DPO -->
+          <section class="privacy-section" id="contato-dpo">
+            <h2><span class="sec-num">11</span>Contato e DPO</h2>
+            <p>Para exercer seus direitos, esclarecer dúvidas ou apresentar reclamações relacionadas ao
+              tratamento de seus dados pessoais, entre em contato com nosso responsável pelo tratamento de
+              dados:</p>
+            <ul>
+              <li><strong>E-mail:</strong>
+                <a href="mailto:contato@fsoadvogados.com.br">contato@fsoadvogados.com.br</a>
+              </li>
+              <li><strong>WhatsApp:</strong>
+                <a href="https://api.whatsapp.com/send?phone=5511970527954&text=Ol%C3%A1!%20Tenho%20uma%20d%C3%BAvida%20sobre%20meus%20dados%20pessoais%20no%20site%20da%20FSO%20Advogados."
+                  target="_blank" rel="noopener">(11) 9 7052-7954</a>
+              </li>
+              <li><strong>Endereço:</strong> Rua Boa Vista, 210, sala 12, Centro — Ribeirão Pires/SP</li>
+            </ul>
+            <p>Responderemos sua solicitação em até <strong>15 dias úteis</strong>, conforme previsto na LGPD.</p>
+          </section>
+
+          <!-- CTA final -->
+          <div class="privacy-cta">
+            <h3>Tem alguma dúvida sobre seus dados?</h3>
+            <p>Entre em contato conosco. Respondemos rapidamente e com total transparência.</p>
+            <a class="btn btn--cream btn--lg js-whatsapp-cta" data-area="privacidade-cta"
+              href="https://api.whatsapp.com/send?phone=5511970527954&amp;text=Ol%C3%A1!%20Tenho%20uma%20d%C3%BAvida%20sobre%20meus%20dados%20pessoais%20no%20site%20da%20FSO%20Advogados."
+              target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+              </svg>
+              Falar pelo WhatsApp
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="images/favicon-fso.png" alt="" width="56" height="56">
+        <p class="footer__name">FSO Advogados</p>
+        <p class="footer__tagline">Freitas Souza &amp; Oliveira Advogados.<br>Agilidade, confiança e competência.</p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/fsoadvogados/" aria-label="Instagram da FSO Advogados" target="_blank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="2.5" y="2.5" width="19" height="19" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.3" cy="6.7" r="0.5" fill="currentColor" />
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/freitassouzaeoliveiraadvogados" aria-label="Facebook da FSO Advogados"
+            target="_blank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer__col" aria-label="Links do rodapé">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="/#inicio">Início</a></li>
+          <li><a href="/#areas">Áreas de Atuação</a></li>
+          <li><a href="/#quem-somos">Quem Somos</a></li>
+          <li><a href="/#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__col">
+        <h4>Áreas de Atuação</h4>
+        <ul>
+          <li><a href="/#areas">Cível</a></li>
+          <li><a href="/#areas">Trabalhista</a></li>
+          <li><a href="/#areas">Previdenciário</a></li>
+          <li><a href="/#areas">Família e Sucessões</a></li>
+          <li><a href="/#areas">Imobiliário</a></li>
+          <li><a href="/#areas">Criminal</a></li>
+          <li><a href="/#areas">Tributário</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a class="js-whatsapp-cta" data-area="footer-privacidade"
+              href="https://api.whatsapp.com/send?phone=5511970527954&amp;text=Ol%C3%A1!%20Acessei%20o%20site%20da%20FSO%20Advogados%20e%20quero%20saber%20mais."
+              target="_blank" rel="noopener">(11) 9 7052-7954</a></li>
+          <li><a href="mailto:contato@fsoadvogados.com.br">contato@fsoadvogados.com.br</a></li>
+          <li>Rua Boa Vista, 210, sala 12 — Centro, Ribeirão Pires/SP</li>
+          <li>Rua Giovanni Battista Pirelli, 271, sala 2501 — Santo André/SP</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© <span id="footer-year">2026</span> FSO Advogados — Freitas Souza &amp; Oliveira Advogados. Todos os
+          direitos reservados.</p>
+        <p class="footer__legal"><a href="/politica-de-privacidade" aria-current="page">Política de Privacidade</a> ·
+          <a href="#">Termos de Uso</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante de WhatsApp -->
+  <a class="whatsapp-float js-whatsapp-cta" data-area="botao-flutuante-privacidade"
+    href="https://api.whatsapp.com/send?phone=5511970527954&amp;text=Ol%C3%A1!%20Acessei%20o%20site%20da%20FSO%20Advogados%20e%20quero%20saber%20mais."
+    target="_blank" rel="noopener" aria-label="Falar com a FSO Advogados pelo WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="currentColor"
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+    </svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

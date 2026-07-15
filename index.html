@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FSO Advogados | Assessoria Jurídica no ABC Paulista — Ribeirão Pires e Santo André</title>
   <meta name="description"
-    content="FSO Advogados — Freitas Souza &amp; Oliveira. Assessoria jurídica completa no ABCDMRR Paulista: trabalhista, previdenciário, família, consumidor, cível, criminal, imobiliário e tributário. Atendimento presencial e online.">
+    content="FSO Advogados — Freitas Souza &amp; Oliveira. Assessoria jurídica completa: trabalhista, previdenciário, família, cível, criminal, imobiliário e tributário. Atendimento presencial e online.">
   <link rel="canonical" href="https://fsoadvogados.com.br/">
 
   <!-- Open Graph -->
@@ -28,23 +28,48 @@
 
   <link rel="stylesheet" href="css/style.css?v=060726-1">
 
-  <!--
-    ============================================================
-    GOOGLE TAG (gtag.js) — Google Ads / Analytics
-    Descomente o bloco abaixo e substitua AW-XXXXXXXXXX pelo ID
-    real da conta quando o rastreio de conversões for configurado.
-    Os cliques de WhatsApp já disparam eventos automaticamente
-    (ver js/main.js — função trackConversion).
-    ============================================================
+  <!-- ANLYTICS COPIADO DO SITE ANTIGO -->
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-598G3J2');
+    /* ]]> */
+  </script>
+  <!-- FIM DO ANLYTICS -->
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXXX"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18242246039"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('config', 'AW-XXXXXXXXXX');
+    gtag('config', 'AW-18242246039');
   </script>
-  -->
+
+  <!-- Snippet de conversão Google Ads — Visualização de página / Clique no WhatsApp -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof (url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18242246039/ZCrwCIjg8c8cEJeryvpD',
+        'value': 1.0,
+        'currency': 'BRL',
+        'event_callback': callback
+      });
+      return false;
+    }
+  </script>
 
   <!-- Dados estruturados (SEO local) -->
   <script type="application/ld+json">
@@ -57,7 +82,7 @@
     "telephone": "+55-11-970527954",
     "image": "https://fsoadvogados.com.br/images/logo-fso-horizontal.png",
     "areaServed": "ABC Paulista (Grande ABC), São Paulo",
-    "knowsAbout": ["Direito Cível", "Direito do Consumidor", "Direito Trabalhista", "Direito Previdenciário", "Direito de Família e Sucessões", "Direito Imobiliário", "Direito Criminal", "Direito Tributário"],
+    "knowsAbout": ["Direito Cível", "Direito Trabalhista", "Direito Previdenciário", "Direito de Família e Sucessões", "Direito Imobiliário", "Direito Criminal", "Direito Tributário"],
     "address": [
       {
         "@type": "PostalAddress",
@@ -202,7 +227,7 @@
           </article>
 
           <!-- Consumidor -->
-          <article class="area-card reveal">
+          <!-- <article class="area-card reveal">
             <button type="button" class="area-card__toggle" aria-expanded="false" aria-controls="panel-consumidor">
               <span class="area-card__icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
@@ -246,7 +271,7 @@
                   target="_blank" rel="noopener">Solicitar contato</a>
               </div>
             </div>
-          </article>
+          </article> -->
 
           <!-- Trabalhista -->
           <article class="area-card reveal">
@@ -593,7 +618,7 @@
               </svg>
             </span>
             <h3>Time multidisciplinar</h3>
-            <p>Advogados especializados em mais de 8 áreas do Direito.</p>
+            <p>Advogados especializados em diversas áreas do Direito.</p>
           </div>
         </div>
       </div>
@@ -786,7 +811,7 @@
                 <select id="cf-area" name="area">
                   <option value="" selected>Selecione uma área (opcional)</option>
                   <option>Cível</option>
-                  <option>Consumidor</option>
+                  <!-- <option>Consumidor</option> -->
                   <option>Trabalhista</option>
                   <option>Previdenciário</option>
                   <option>Família e Sucessões</option>
@@ -874,8 +899,7 @@
       <div class="footer__brand">
         <img src="images/favicon-fso.png" alt="" width="56" height="56">
         <p class="footer__name">FSO Advogados</p>
-        <p class="footer__tagline">Freitas Souza &amp; Oliveira Advogados.<br>Agilidade, confiança e competência no
-          ABCDMRR Paulista.</p>
+        <p class="footer__tagline">Freitas Souza &amp; Oliveira Advogados.<br>Agilidade, confiança e competência.</p>
         <div class="footer__social">
           <!-- TODO: substituir os href="#" pelos links reais do Instagram e Facebook -->
           <a href="https://www.instagram.com/fsoadvogados/" aria-label="Instagram da FSO Advogados" target="_blank">
@@ -909,10 +933,13 @@
       <div class="footer__col">
         <h4>Áreas de Atuação</h4>
         <ul>
-          <li><a href="#areas">Cível · Consumidor</a></li>
-          <li><a href="#areas">Trabalhista · Previdenciário</a></li>
-          <li><a href="#areas">Família e Sucessões · Imobiliário</a></li>
-          <li><a href="#areas">Criminal · Tributário</a></li>
+          <li><a href="#areas">Cível </a></li>
+          <li><a href="#areas">Trabalhista</a></li>
+          <li><a href="#areas">Previdenciário</a></li>
+          <li><a href="#areas">Família e Sucessões</a></li>
+          <li><a href="#areas">Imobiliário</a></li>
+          <li><a href="#areas">Criminal</a></li>
+          <li><a href="#areas">Tributário</a></li>
         </ul>
       </div>
 
@@ -934,7 +961,8 @@
         <p>© <span id="footer-year">2026</span> FSO Advogados — Freitas Souza &amp; Oliveira Advogados. Todos os
           direitos reservados.</p>
         <!-- TODO: criar as páginas de Política de Privacidade e Termos de Uso -->
-        <p class="footer__legal"><a href="#">Política de Privacidade</a> · <a href="#">Termos de Uso</a></p>
+        <p class="footer__legal"><a href="/politica-de-privacidade.html">Política de Privacidade</a> · <a
+            href="#">Termos de Uso</a></p>
       </div>
     </div>
   </footer>
